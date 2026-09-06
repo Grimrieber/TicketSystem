@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copy this file to `connectionStrings.config` and replace the placeholders
+  with real values. The real file is gitignored so secrets never reach git.
+-->
+<connectionStrings>
+  <add name="TicketSystemDB"
+       connectionString="Server=YOUR_SQL_SERVER;Database=YOUR_DB;User Id=YOUR_USER;Password=YOUR_PASSWORD;Encrypt=True;TrustServerCertificate=True;"
+       providerName="System.Data.SqlClient" />
+</connectionStrings>
